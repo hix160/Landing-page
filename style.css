@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
+html, body {
+    height: 100%; /* Ensures the body takes up the full height */
+    display: flex;
+    flex-direction: column; /* Sets a column layout */
     margin: 0;
 }
-
 
 .logo{
     
@@ -44,16 +44,16 @@ img {
 }
 
 .footer {
-    display: flex;
-    flex:1;
-    flex-direction: column;
-    background-color: #1F2937;
+    background-color: #0F5757;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #0F5757;
     color:aliceblue;
     padding: 15px;
     padding-bottom: 32px;
@@ -82,7 +82,7 @@ img {
 }
 
 .check_out_btn {
-    background-color: #3882F6;
+    background-color: #3CCDBE;
     color: aliceblue;
     font-weight: bold;
     font-size: large;
@@ -96,11 +96,14 @@ img {
 }
 
 .main1 {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 16px;
-    margin-bottom: 20px;
+    padding-bottom: 16px;
+    flex-grow:1;
+    background-color: #A0E8E0;
 }
 .main2 {
     display: flex;
@@ -108,7 +111,7 @@ img {
     flex-direction: column;
     padding: 80px 160px;
     margin: 0;
-    background-color: gray;
+    background-color: #198C8C;
     
 }
 
